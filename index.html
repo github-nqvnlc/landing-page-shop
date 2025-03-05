@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LP Shopping</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/animation.css" />
+  </head>
+  <body>
+    <div class="cover"></div>
+    <div
+      data-animation="scale-up"
+      data-duration="1s"
+      data-timing="ease"
+      data-display="flex"
+      class="line animation none"
+    >
+      <span class="line1"></span>
+      <span class="line2"></span>
+    </div>
+    <div class="block-container">
+      <div
+        data-animation="block-1"
+        data-duration="1s"
+        data-timing="ease"
+        data-display="flex"
+        class="animation none block block-1 display-1 shadow-sm"
+      >
+        <div class="block-header"></div>
+        <div class="block-content justify-end">
+          <div class="content w-80"></div>
+          <div class="content w-100"></div>
+          <div class="content w-100"></div>
+        </div>
+      </div>
+      <div
+        data-animation="block-2"
+        data-duration="1s"
+        data-timing="ease"
+        data-display="flex"
+        class="animation none block block-1 flipped-1 display-2 shadow-sm"
+      >
+        <div class="block-header"></div>
+        <div class="block-content justify-end">
+          <div class="content w-80"></div>
+          <div class="content w-100"></div>
+          <div class="content w-100"></div>
+        </div>
+      </div>
+      <div
+        id="block3"
+        data-animation="block-3"
+        data-duration="1s"
+        data-timing="ease"
+        data-display="flex"
+        class="animation none block block-2 display-3"
+      >
+        <div class="block-content justify-end">
+          <div class="content w-100"></div>
+          <div class="content-button">
+            <div class="button confirm"></div>
+            <div class="button cancel"></div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="block4"
+        data-animation="block-4"
+        data-duration="1s"
+        data-timing="ease"
+        data-display="flex"
+        class="animation none block block-2 flipped-2 display-4 shadow-sm"
+      >
+        <div class="block-content justify-end">
+          <div class="content w-100"></div>
+          <div class="content-button">
+            <div class="button confirm"></div>
+            <div class="button cancel"></div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="block5"
+        data-animation="block-5"
+        data-duration="1s"
+        data-timing="ease"
+        data-display="flex"
+        class="animation none block block-3 display-5 shadow-sm"
+      >
+        <div class="block-content justify-between">
+          <div class="flex justify-end">
+            <div class="content-3 w-30"></div>
+          </div>
+          <div class="flex justify-end">
+            <div class="content-3 w-30"></div>
+          </div>
+          <div class="content-button justify-start">
+            <div class="button-3 confirm"></div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="block6"
+        data-animation="block-6"
+        data-duration="1s"
+        data-timing="ease"
+        data-display="flex"
+        class="animation none block block-3 flipped-3 display-6 shadow-sm"
+      >
+        <div class="block-content justify-between">
+          <div class="flex justify-end">
+            <div class="content-3 w-30"></div>
+          </div>
+          <div class="flex justify-end">
+            <div class="content-3 w-30"></div>
+          </div>
+          <div class="content-button justify-start">
+            <div class="button-3 confirm"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- speech block -->
+      <div
+        data-animation="scale-in-bottom"
+        data-duration="1s"
+        data-timing="cubic-bezier(0.25, 0.46, 0.45, 0.94) both"
+        data-display="flex"
+        class="animation none speech-bubble scale-in-bottom shadow-sm"
+      >
+        <div class="content w-80"></div>
+      </div>
+      <!-- === -->
+
+      <!-- Heading -->
+      <h1
+        data-animation="tracking-in-expand"
+        data-duration="1s"
+        data-timing="cubic-bezier(0.215, 0.61, 0.355, 1) both"
+        data-display="block"
+        class="animation none heading tracking-in-expand none"
+      >
+        Landingpage
+      </h1>
+      <!-- SHOPING -->
+      <h6
+        data-animation="slide-top"
+        data-duration="1s"
+        data-timing="cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
+        data-display="block"
+        class="shoping animation none"
+      >
+        shoping
+      </h6>
+      <!-- style by me -->
+      <h6
+        data-animation="blind-color"
+        data-duration="1s"
+        data-timing="cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
+        data-display="block"
+        class="style-by-me animation none"
+      >
+        style guide by me
+      </h6>
+    </div>
+
+    <script src="script/index.js"></script>
+  </body>
+</html>
